@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".restrictedAreaFragment">
+
+    <EditText
+        android:id="@+id/latitud_Poligono"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="latitud_Poligono"
+        android:inputType="numberSigned|numberDecimal" />
+
+    <EditText
+        android:id="@+id/longitud_Poligono"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="75dp"
+        android:hint="longitud_Poligono"
+        android:inputType="numberSigned|numberDecimal" />
+
+    <Button
+        android:id="@+id/agregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="45dp"
+        android:text="Agregar" />
+
+    <ListView
+        android:id="@+id/listaUbicacionesPoligono"
+        android:layout_width="360dp"
+        android:layout_height="533dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="20dp"
+        android:orientation="vertical" />
+
+
+</FrameLayout>

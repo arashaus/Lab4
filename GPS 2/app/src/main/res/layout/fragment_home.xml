@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="246dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        android:text="Aplicación realizada para el laboratorio numero 2 de la clase de mobiles. Guirsley Rodriguez" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/salir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salir"/>
+
+</FrameLayout>
